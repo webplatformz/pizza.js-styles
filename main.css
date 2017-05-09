@@ -140,6 +140,10 @@ ul {
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     }
 
+    .pizza-preview--open .pizza-preview-toggler__icon {
+        transform: rotate(180deg);
+    }
+
     .pizza-preview-toggler {
         display: block;
         position: absolute;
@@ -153,6 +157,10 @@ ul {
         height: 50px;
         padding: 0;
         border-radius: 5px 0 0 5px;
+    }
+
+    .pizza-preview-toggler__icon {
+        transition: transform .25s ease
     }
 
     .pizza-preview-toggler:focus, .pizza-preview-toggler:active {
