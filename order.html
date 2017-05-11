@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>PizzaJS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+<div id="addressForm">
+
+    <div id="salutation" class="address-form__item address-form__item--full-width">
+        <select>
+            <option>Frau</option>
+            <option>Herr</option>
+            <option>Other</option>
+        </select>
+    </div>
+
+    <div id="firstName" class="address-form__item">
+        <input type="text" placeholder="Vorname" class="address-form__input"/>
+    </div>
+
+    <div id="lastName" class="address-form__item">
+        <input type="text" placeholder="Nachname" class="address-form__input address-form__input--validation-error"/>
+        <span class="address-form__validation-error">Nachname fehlt</span>
+    </div>
+
+    <div id="streetAndNumber" class="address-form__item address-form__item--full-width">
+        <input type="text" placeholder="Strasse / Nr" class="address-form__input"/>
+    </div>
+
+    <div id="cityZip" class="address-form__item">
+        <input type="text" placeholder="PLZ" class="address-form__input"/>
+    </div>
+
+    <div class="address-form__item">
+        <input type="text" placeholder="Ort" class="address-form__input"/>
+    </div>
+
+    <div id="phoneNumber" class="address-form__item address-form__item--full-width">
+        <input type="tel" placeholder="Telefonnummer" class="address-form__input"/>
+    </div>
+
+    <button class="order-button" type="submit">Bestellen!</button>
+</div>
+</body>
+</html>

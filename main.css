@@ -232,3 +232,47 @@ ul {
     }
 }
 
+input {
+    padding: 10px;
+    -webkit-appearance: none;
+    border: 1px solid #95a5a6;
+    font-size: 15px;
+}
+
+select {
+    font-size: 15px;
+}
+
+#addressForm {
+    background-color: #ecf0f1;
+    padding: 20px;
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+.address-form__item {
+    flex: 1 0 50%;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.address-form__item--full-width {
+    flex-basis: 100%;
+}
+
+.address-form__input {
+    width: 100%;
+}
+
+.address-form__input--validation-error {
+    border: 2px solid #e74c3c;
+}
+
+.address-form__validation-error {
+    font-size: 13px;
+    color: #e74c3c;
+    font-weight: bold;
+    padding: 5px;
+}
+
