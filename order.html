@@ -25,7 +25,7 @@
 
     <div id="lastName" class="address-form__item">
         <input type="text" placeholder="Nachname" class="address-form__input address-form__input--validation-error"/>
-        <span class="address-form__validation-error">Nachname fehlt</span>
+        <span class="address-form__validation-error-text">Nachname fehlt</span>
     </div>
 
     <div id="streetAndNumber" class="address-form__item address-form__item--full-width">
@@ -43,8 +43,10 @@
     <div id="phoneNumber" class="address-form__item address-form__item--full-width">
         <input type="tel" placeholder="Telefonnummer" class="address-form__input"/>
     </div>
-
-    <button class="order-button" type="submit">Bestellen!</button>
+    
+    <div class="address-form__item address-form-item--align-right">
+        <button type="submit" class="address-form__order-button">Bestellen!</button>
+    </div>
 </div>
 </body>
 </html>
