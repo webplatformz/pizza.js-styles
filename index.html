@@ -124,7 +124,7 @@
                         </li>
                     </ul>
                     <div class="shopping-cart-order">
-                        <button class="order-button">Order</button>
+                        <button class="order-button" onclick="orderPizza()">Order</button>
                     </div>
                 </div>
             </div>
@@ -133,6 +133,10 @@
     <script>
         function togglePreview() {
             document.getElementById('pizzaPreview').classList.toggle('pizza-preview--open');
+        }
+
+        function orderPizza() {
+            window.location.href = '/order.html';
         }
     </script>
 </body>
